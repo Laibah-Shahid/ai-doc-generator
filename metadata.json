@@ -1,0 +1,5 @@
+{
+  "name": "AI Code Documenter",
+  "description": "An AI-powered code documentation generator that automatically analyzes a codebase and generates high-quality technical documentation using Google's Gemini API.",
+  "requestFramePermissions": []
+}
