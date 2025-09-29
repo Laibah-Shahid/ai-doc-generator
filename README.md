@@ -29,19 +29,17 @@ It works with any repository by parsing its source files and generating docs tha
 ---
 
 ## 📂 Repository Structure
-Al-powered-document-generator/
-├── src/
-│ ├── components/ # UI components (if front-end)
-│ ├── services/ # Logic for interacting with AI + parsing
-│ ├── utils/ # Helper functions (AST parsing, text cleanup)
-│ ├── App.tsx # Entry point for UI (if any)
-│ └── index.ts # Main runner or server entry
-├── docs/ # Generated documentation output (example / template)
-├── .env.local # Environment variables (ignored in git)
-├── package.json # Dependencies & scripts
-├── tsconfig.json # TypeScript config
-├── README.md # Project overview (this file)
-└── vite.config.ts # (If Vite is used for front-end)
+```
+ai-doc-generator/
+│── components/      # UI components
+│── services/         # geminiService.ts
+│── utils/             # API + utility functions
+│── index.tsx          # Root component
+│── App.tsx          # Entry point
+│── .env.local           # Environment variables (ignored in git)
+│── package.json         # Dependencies & scripts
+│── vite.config.js       # Vite configuration
+```
 
 
 
@@ -89,11 +87,5 @@ Al-powered-document-generator/
 ## 🤝 Contributing
 
 Feel free to fork this repo and submit a pull request for improvements or new features.
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
